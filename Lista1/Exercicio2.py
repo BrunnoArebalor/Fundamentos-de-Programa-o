@@ -1,5 +1,4 @@
-
-print('Seja bem vindo', nome)print('Coversor do real para dolar')
+print('Coversor do real para dolar')
 dolar = int(input('Digite o valor que deja comprar em dolares:'))
 
 real = round(dolar * 4.98, 2)
