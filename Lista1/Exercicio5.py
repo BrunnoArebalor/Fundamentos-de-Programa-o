@@ -2,7 +2,7 @@
 # Escreva um algoritmo para ler o preço do litro da gasolina e o valor que o motorista tem disponível para abastecer.
 # Calcule quantos litros ele conseguiu colocar no tanque e exiba na tela
 
-valorDisponivel = int(input("Informe o valor que o cliente vai por de gasolina:"))
+valorDisponivel = float(input("Informe o valor que o cliente vai por de gasolina:"))
 gasolina = 5.59
 
 litro = round(valorDisponivel / gasolina, 2)
