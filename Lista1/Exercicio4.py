@@ -1,8 +1,9 @@
-# 3. Um restaurante de buffet a quilo cobra R$ 40,00 por quilo.
-# Escreva um programa que leia o peso do prato do cliente e calcule o valor a ser pago.
+# 4. Faça um algoritmo que permita ao aluno calcular a sua média final na Unisinos. 
+# Leia a nota do grau A e do grau B e escreva o resultado na tela. 
+# Lembrando que o Grau A vale 1/3 e o Grau B 2/3.
 
-grauA = int(input("Informe a nota do Grau A:"))
-grauB = int(input("Informe a nota do Grau B:"))
+grauA = float(input("Informe a nota do Grau A:"))
+grauB = float(input("Informe a nota do Grau B:"))
 
 notaFinal = (grauA + (grauB * 2)) / 3
 print(notaFinal)
