@@ -3,7 +3,7 @@ print(' Opção A Clark Kent \n Opção B Bruce Wayne \n Opção C Steve Rogers 
 batman = str(input('Qual o verdadeiro nome do super-heroi Batman?:'))
 
 
-if batman == 'B':
+if batman == 'B' or batman == 'b':
     print('certo')
-elif batman != 'B':
+elif batman != 'B' or batman != 'b':
     print('errado')
