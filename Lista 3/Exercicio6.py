@@ -12,9 +12,19 @@ jogada2 = int(input("escolha um número de 0 a 5 para jogar:"))
 adiversario = random.randint(0, 5)
 resultado = jogada2 + adiversario
 
-if resultado % 2 == 0 :
+if resultado % 2 == 0 and jogada1 == 2:
     print("DEU PAR!")
-    print("adiversário jogou:", adiversario)
+    print("VOCÊ GANHOU!!!")
+    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
+elif resultado % 2 == 1 and jogada1 == 2:
+    print("DEU IMPAR!")
+    print("VOCÊ PERDEU!")
+    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
+elif resultado % 2 == 0 and jogada1 == 1 :
+    print("DEU PAR!")
+    print("VOCÊ PERDEU!")
+    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
 else :
-    print("DEU IMPAR")
-    print("adiversário jogou:", adiversario)
+    print("DEU IMPAR!")
+    print("VOCÊ GANHOU!")
+    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
