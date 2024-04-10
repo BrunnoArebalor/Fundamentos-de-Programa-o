@@ -15,16 +15,16 @@ resultado = jogada2 + adiversario
 if resultado % 2 == 0 and jogada1 == 2:
     print("DEU PAR!")
     print("VOCÊ GANHOU!!!")
-    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
+    print("adversário jogou:", adiversario, "Vc jogou:", jogada2)
 elif resultado % 2 == 1 and jogada1 == 2:
     print("DEU IMPAR!")
     print("VOCÊ PERDEU!")
-    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
+    print("adversário jogou:", adiversario, "Vc jogou:", jogada2)
 elif resultado % 2 == 0 and jogada1 == 1 :
     print("DEU PAR!")
     print("VOCÊ PERDEU!")
-    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
+    print("adversário jogou:", adiversario, "Vc jogou:", jogada2)
 else :
     print("DEU IMPAR!")
     print("VOCÊ GANHOU!")
-    print("adiversário jogou:", adiversario, "Vc jogou:", jogada2)
+    print("adversário jogou:", adiversario, "Vc jogou:", jogada2)
