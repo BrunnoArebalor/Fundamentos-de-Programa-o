@@ -14,8 +14,8 @@ public class Exercicio3 {
             System.out.println("O dobro do valor digitado" + numero + "é: " + dobro);
         }
         else {
-            int tripulo = numero * 2;
-            System.out.println("O tripulo do valor digitado" + numero + "é: " + tripulo);
+            int triplo = numero * 2;
+            System.out.println("O triplo do valor digitado" + numero + "é: " + triplo);
         }
     }
 }
