@@ -132,8 +132,7 @@ def filtrar_felinos_por_periodo(lista_felinos):
 
     print("Escolha uma opção:")
     print("1) Consultar gatos resgatados por período")
-    print("2) Consultar gatos adotados por período")
-    print("3) Para sair")
+    print("2) Para sair")
 
     opcao = int(input("Digite o número da opção desejada: "))
     if opcao == 1:
@@ -144,13 +143,6 @@ def filtrar_felinos_por_periodo(lista_felinos):
         for felino in felinos_resgatados:
             print(f"{felino['Nome']} ({felino['Sexo']})")
     elif opcao == 2:
-        ano_inicio = int(input("Digite o ano de início: "))
-        ano_fim = int(input("Digite o ano de fim: "))
-        felinos_adotados = [felino for felino in lista_felinos if ano_inicio <= int(felino['Data de Resgate'][-4:]) <= ano_fim and felino['Adotado'] == 'Sim']
-        print("\nFelinos adotados no período:")
-        for felino in felinos_adotados:
-            print(f"{felino['Nome']} ({felino['Sexo']})")
-    elif opcao == 3:
         exibir_menu()
     else:
         print("Opção inválida. Tente novamente.")
